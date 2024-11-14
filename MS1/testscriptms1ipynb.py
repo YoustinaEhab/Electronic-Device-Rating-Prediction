@@ -11,7 +11,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import PolynomialFeatures
 
-data = pd.read_csv('ElecDeviceRatingPrediction.csv')
+# Write your test file below
+data = pd.read_csv('')
 
 data[['Os','Os_Type']]=data['os'].str.split(' ', expand=True)
 data.drop(columns=['os'],inplace=True)
