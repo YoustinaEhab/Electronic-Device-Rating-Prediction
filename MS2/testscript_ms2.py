@@ -15,7 +15,8 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import confusion_matrix, accuracy_score, f1_score, classification_report
 import pickle
 
-data = pd.read_csv('D:\PC1\Youstina\Machine Learning\Final Project\CS_23\MS2\ElecDeviceRatingPrediction_Milestone2.csv')
+# Write your test file below
+data = pd.read_csv('')
 
 data[['Os','Os_Type']]=data['os'].str.split(' ', expand=True)
 data.drop(columns=['os'],inplace=True)
