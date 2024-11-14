@@ -14,7 +14,7 @@ import pickle
 
 """# Reading Dataset"""
 
-data = pd.read_csv('D:\PC1\Youstina\Machine Learning\Final Project\CS_23\MS2\ElecDeviceRatingPrediction_Milestone2.csv')
+data = pd.read_csv('ElecDeviceRatingPrediction_Milestone2.csv')
 
 """# Label Encoding"""
 
